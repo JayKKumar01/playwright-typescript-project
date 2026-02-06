@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://example.com",
+  "timeouts": {
+    "short": 3000,
+    "default": 5000
+  }
+}

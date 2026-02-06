@@ -1,13 +1,15 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "playwright-typescript-project",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "playwright test"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.1",
     "typescript": "^5.5.3"
   },
   "private": true
